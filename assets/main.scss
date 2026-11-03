@@ -1,0 +1,28 @@
+---
+---
+@import "minima";
+@import url('https://googleapis.com');
+
+$font-helvetica-thin: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-helvetica: "HelveticaNeue", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-helvetica-light: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-helvetica-bold: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+body { font-family: $font-helvetica-bold, sans-serif; }
+.post-list-heading {transform: scaleX(1.5); transform-origin: left;}
+.post-list {font-family: $font-helvetica-thin, sans-serif; transform: scaleY(0.7); transform-origin: up;}
+.post-meta {color:#3c382c;}
+.post-link {color: #543d2f;font-family: $font-helvetica, sans-serif;}
+.site-header {border-top-color: #8e793c;font-family: $font-helvetica-bold, sans-serif; transform: scaleY(0.7); transform-origin: up; }
+.site-footer {
+    border-bottom-color: #8e793c;
+    font-family: $font-helvetica-thin, sans-serif; 
+    transform: scaleY(0.7); 
+    transform-origin: up; 
+    .svg-icon {
+        transform: scaleY(1.43);
+    }
+    .footer-col-3 {
+        font-family: $font-helvetica;
+    }
+}
